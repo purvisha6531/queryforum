@@ -1,0 +1,409 @@
+/* CSS Document */
+/* font color*/
+.login
+{
+	background:#FFF;
+	margin-top:120px;
+	width:80px;
+	border-radius:10px;
+	box-shadow: 6px 6px 6px #CCCCCC;
+	
+
+}
+.inputErr
+{
+ border:1px solid #E72225;
+	background-color: darksalmon;
+}
+
+.loginicon
+{
+	margin-top:20px;
+}
+.bglogin {
+	color:#FFF;
+	color:#FFF;
+	font-size:18px;
+	padding:5px 5px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:none;
+	border-radius:5px;
+
+ background: #7D0552   ; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #7D0552 ,#FF00FF, #F75D59); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #7D0552 ,#FF00FF  , #F75D59); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #7D0552  ,#FF00FF ,#F75D59); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #7D0552  ,#FF00FF , #F75D59); /* Standard syntax */
+}
+.marginlogin
+{
+	margin:15px 35px;
+}
+#btnlogin
+{
+	background:#57B8BA;
+	border:none;
+	border-radius:20px;
+	color:#FFF;
+	padding:10px 10px 10px 10px;
+	margin-top:20px;
+	
+	
+}
+.titlelogin
+{
+	font-family:Papyrus, fantasy;
+	font-size:36px;
+}
+
+
+
+
+
+
+
+
+
+
+.icon
+{
+	color:#3CF;
+	font-size:70px;
+	border:1px solid #3CF;
+	padding:15px 15px 15px 15px;
+	margin-bottom:25px;
+	border-radius:3px;
+}
+.margin
+{
+	margin-top:25px;
+}
+
+
+.bgcontact
+{
+	background-color:#FFF;
+}
+.contact
+{
+	padding:30px 30px 30px 30px;
+	margin:50px 50px 50px 50px;
+	background:#003;
+}
+.contactfont
+{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+}
+
+.abc {
+	color:#FFF;
+	font-size:18px;
+	padding:5px 5px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:none;
+	border-radius:5px;
+ background: #7D0552   ; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #7D0552 ,#FF00FF, #F75D59); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #7D0552 ,#FF00FF  , #F75D59); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #7D0552  ,#FF00FF ,#F75D59); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #7D0552  ,#FF00FF , #F75D59); /* Standard syntax */
+}
+
+#aboutBanner
+{
+	width:100%;
+	height:200px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url(../img/abotus.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#aboutBanner h2
+{
+	text-align:center;
+	font-size:3em;
+	color:#FFF;
+	z-index:99;
+	text-transform:uppercase;
+	margin-top:50px;
+}
+.aboutus
+{
+	margin-top:30px;
+	font-size:18px;
+}
+.line
+{
+	background-color:#CCC;
+	height:1px;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+.aboutcontain
+{
+	margin-bottom:50px;
+}
+
+
+/*phpdevloper*/
+.phpback
+{
+	margin-top:50px;
+	margin-bottom:50px;
+	background-image:url(../img/phpdevloper.jpg);
+	width:100%;
+	height:400px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-size:cover;
+	background-position:center;
+}
+.php
+{
+	margin-top:30px;
+	
+}
+#phpdevlop
+{
+	width:100%;
+	height:200px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url(../img/phpdevlop.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#phpdevlop h2
+{
+	text-align:center;
+	font-size:3em;
+	color:#FFF;
+	z-index:99;
+	text-transform:uppercase;
+	margin-top:50px;
+}
+.txtorange
+{
+	color:#F96;
+}
+
+
+/*ASPnet*/
+
+#aspnetdevlop
+{
+	width:100%;
+	height:200px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url(../img/aspnet1.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#aspnetdevlop h2
+{
+	text-align:center;
+	font-size:3em;
+	color:#000;
+	z-index:99;
+	text-transform:uppercase;
+	margin-top:50px;
+}
+#magentodevlop
+{
+	width:100%;
+	height:200px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url(../img/phpdevlop.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#magentodevlop h2
+{
+	text-align:center;
+	font-size:3em;
+	color:#FFF;
+	z-index:99;
+	text-transform:uppercase;
+	margin-top:50px;
+}
+#logodesign
+{
+	width:100%;
+	height:200px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url(../img/phpdevlop.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#logodesign h2
+{
+	text-align:center;
+	font-size:3em;
+	color:#FFF;
+	z-index:99;
+	text-transform:uppercase;
+	margin-top:50px;
+}
+.logodesignbg
+{
+	background:url(../img/logodesign.png);
+	height:350px;
+	margin-bottom:30px;
+}
+
+
+#wordpress
+{
+	width:100%;
+	height:200px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url(../img/phpdevlop.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#wordpress h2
+{
+	text-align:center;
+	font-size:3em;
+	color:#FFF;
+	z-index:99;
+	text-transform:uppercase;
+	margin-top:50px;
+}
+.domainbg
+{
+	background:url(../img/Domain.png);
+	height:350px;
+	margin-bottom:30px;
+	background-repeat:no-repeat;
+	
+	
+}
+
+
+#android
+{
+	width:100%;
+	height:250px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url(../img/android.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#android h2
+{
+	text-align:center;
+	font-size:3em;
+	color:#FFF;
+	z-index:99;
+	text-transform:uppercase;
+	margin-top:50px;
+}
+#iphone
+{
+	width:100%;
+	height:250px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url(../img/ios.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#iphone h2
+{
+	text-align:center;
+	font-size:3em;
+	color:#FFF;
+	z-index:99;
+	text-transform:uppercase;
+	margin-top:50px;
+}
+/*client*/
+.margin
+{
+	margin-bottom:30px;
+}
+.box
+{
+	border:1px solid black;
+	height:150px;
+	width:150px;
+	margin-top:30px;
+	background-color:#03C5CE;
+	border-bottom-left-radius:2em;
+	border-top-right-radius:2em;
+	
+}
+
+
+.box1
+{
+	border:1px solid black;
+	height:150px;
+	width:150px;
+	margin-top:30px;
+	background-color:#03C5CE;
+	border-bottom-left-radius:2em;
+	border-top-right-radius:2em;
+	margin-left:70px;
+	color:#FFF;
+}
+
+
+
+
+/*New Project*/
+.projectrow
+{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.projecttitle
+{
+	color:#06F;
+	margin-top:30px;
+}
+.project
+{
+	margin-top:00px;
+	margin-bottom:30px;
+	border:1px solid #7CABCA;
+	box-shadow: 3px 3px 3px #7CABCA;
+}
+
+
+.black
+{
+color:#000000;
+}
+.align
+{
+text-align:center;
+}
+
+
+.bg
+{
+	margin-top:40px;
+	background:#FFFFFF;
+	border-radius:5px;
+	box-shadow: 5px 5px 5px 5px ;
+	margin-bottom:40px;
+}
+
+.mg
+{
+	min-height:400px;
+}
+
+
+  

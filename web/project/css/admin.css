@@ -1,0 +1,463 @@
+/* CSS Document */
+
+/* LOGO */
+.logomargin
+{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.logofont
+{
+	color:#00AEEF;
+}
+
+.redcolor
+{
+	color:#FF3333;
+
+}
+
+/* MAIN CONTENT */
+
+.margin
+{
+	margin-left:30px;
+	margin-right:30px;
+	border-radius:7px;
+	
+}
+
+
+/* BACKGROUND COLOR */
+
+.bgwhite
+{
+	background:#FFFFFF;
+}
+
+
+/* Form design*/
+
+.bg
+{
+	margin-top:40px;
+	background:#FFF;
+	border-radius:5px;
+	box-shadow: 10px 10px 10px #CCCCCC;
+	margin-bottom:40px;
+}
+.back
+{
+	margin-top:5px;
+	background:#FFF;
+	border-radius:5px;
+	box-shadow: 10px 10px 10px #CCCCCC;
+	margin-bottom:40px;
+}
+
+
+.bg2
+{
+	margin-top:40px;
+	background:#FFF;
+	border-radius:5px;
+	box-shadow: 10px 10px 10px #CCCCCC;
+	margin-bottom:10px;
+}
+
+.bg1
+{
+	background:#FFF;
+	border-radius:5px;
+	box-shadow: 10px 10px 10px #CCCCCC;
+	margin-bottom:40px;
+}
+
+.bg3
+{
+	margin-top:20px;
+	background:#FFF;
+	border-radius:5px;
+	box-shadow: 10px 10px 10px #CCCCCC;
+	margin-bottom:5px;
+}
+
+
+
+.black
+{
+	padding-left:50px;
+}
+
+
+
+/*Data Display table*/
+
+.show  table
+ {
+ 	border-collapse: collapse;
+ 	width:800px;
+	margin-bottom:20px;
+	text-align-last:center;
+	
+	font-size:14px;
+	color:#000000;
+ }
+.show  table, .show tr,.show td
+ { 
+ 	
+ 	border: 1px solid black;
+  	vertical-align:middle;
+	color:#000;
+	text-align-last:center;
+ }
+.show  tr
+ {
+ 	height:10px;
+ }
+.show  th
+ {
+	 text-align-last:center;
+	 background-color:#2874A6;
+	 color:#FFFFFF;
+ }
+ .show tr,.show td,.show th
+ {
+ 
+ 	padding:8px;
+	text-align:left;
+ }
+ 
+ .show tr:nth-child(even)
+ {
+ 	background-color:#FFFFFF;
+ }
+ 
+ .show i
+ {
+ 	color:black;
+	font-size:16px;
+ }
+ 
+ 
+ 
+ .show1  table
+ {
+ 	border-collapse: collapse;
+ 	width:600px;
+	margin-bottom:20px;
+	border:1px solid black;
+
+ }
+.show1  table, .show tr,.show td
+ { 
+ 	
+ 	border: 1px solid black;
+  	vertical-align:middle;
+	color:#000;
+
+ }
+.show1  tr
+ {
+ 	height:10px;
+ }
+.show1  th
+ {
+	
+	 background-color:#2874A6;
+	 color:#FFFFFF;
+ }
+ .show1 tr,.show1 td,.show1 th
+ {
+ 
+ 	padding:8px;
+	text-align:left;
+ }
+ 
+ .show1 tr:nth-child(even)
+ {
+ 	background-color:#FFFFFF;
+ }
+ 
+ .show1 i
+ {
+ 	color:black;
+	font-size:16px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #popup {
+ 
+
+ width:700px; 
+  display: block;
+ background:#FFF;
+	border-radius:5px;
+	box-shadow: 10px 10px 10px #CCCCCC;
+  z-index: 10;
+  cursor: default;
+  display: none;
+  margin-top:5px;
+   margin:0 auto;
+  height:500px;
+  padding:10px;
+  padding-left:50px;
+  height:100%;
+}
+
+
+.marginlabel
+{
+margin-left:30px;
+color:#0099FF;
+
+}
+
+.padd
+{
+	margin-left:50px;
+}
+
+.sky
+{
+	background-color:#C9E7D2;
+	color:#000000;
+	margin:0 auto;
+	border-radius:5px;
+}
+.bg-blue{ 
+background-color:#33CCFF;
+}
+.rw
+{
+padding-top:10px;
+padding-bottom:10px;
+border-bottom:#FFFFFF inset 5px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.chat_window {
+
+	position: absolute;
+	width: 300px;
+   height:600px;
+  border-radius: 10px;
+  background-color: #fff;
+ margin-top: 10%;
+	margin-left: 61%;
+  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color:#fff;
+  overflow: hidden;
+	display: none;
+}
+
+.top_menu {
+  background-color:  #39435C;
+  width: 100%;
+  padding: 20px 0 15px;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+}
+
+.top_menu .title {
+  text-align: center;
+  color: #bcbdc0;
+  font-size: 20px;
+}
+
+
+.messages {
+  position: relative;
+  list-style: none;
+  padding: 20px 10px 0 10px;
+  margin: 0;
+  height: 347px;
+  overflow: scroll;
+}
+
+
+
+
+
+
+.bottom_wrapper {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  padding: 20px 20px;
+  position: absolute;
+  bottom: 0;
+}
+.bottom_wrapper .message_input_wrapper {
+  display: inline-block;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #bcbdc0;
+	width: 180px;
+ /* width: calc(100% - 20px);*/
+  position: relative;
+  padding: 0 20px;
+}
+.bottom_wrapper .message_input_wrapper .message_input {
+  border: none;
+  height: 100%;
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  position: absolute;
+  outline-width: 0;
+  color: gray;
+}
+.bottom_wrapper .send_message {
+  width: 80px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #a3d063;
+  border: 2px solid #a3d063;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  text-align: center;
+  float: right;
+}
+.bottom_wrapper .send_message:hover {
+  color: #a3d063;
+  background-color: #fff;
+}
+.bottom_wrapper .send_message .text {
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  line-height: 48px;
+}
+
+.message_template {
+  display: none;
+}
+
+
+
+
+
+.chat_window {
+
+	position: absolute;
+	width: 300px;
+   height:450px;
+  border-radius: 10px;
+  background-color: #fff;
+ margin-top: 10%;
+	margin-left: 61%;
+  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color:#fff;
+  overflow: hidden;
+}
+
+.top_menu {
+  background-color:  #39435C;
+  width: 100%;
+  padding: 20px 0 15px;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+}
+
+.top_menu .title {
+  text-align: center;
+  color: #bcbdc0;
+  font-size: 20px;
+}
+
+
+.messages {
+  position: relative;
+  list-style: none;
+  padding: 20px 10px 0 10px;
+  margin: 0;
+  height: 347px;
+  overflow: scroll;
+}
+
+
+
+
+
+
+.bottom_wrapper {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  padding: 20px 20px;
+  position: absolute;
+  bottom: 0;
+}
+.bottom_wrapper .message_input_wrapper {
+  display: inline-block;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #bcbdc0;
+	width: 180px;
+ /* width: calc(100% - 20px);*/
+  position: relative;
+  padding: 0 20px;
+}
+.bottom_wrapper .message_input_wrapper .message_input {
+  border: none;
+  height: 100%;
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  position: absolute;
+  outline-width: 0;
+  color: gray;
+}
+.bottom_wrapper .send_message {
+  width: 80px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #a3d063;
+  border: 2px solid #a3d063;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  text-align: center;
+  float: right;
+}
+.bottom_wrapper .send_message:hover {
+  color: #a3d063;
+  background-color: #fff;
+}
+.bottom_wrapper .send_message .text {
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  line-height: 48px;
+}
+
+.message_template {
+  display: none;
+}
+
+
+.font{
+	
+	font-size:20px;
+	color: aliceblue;
+}
